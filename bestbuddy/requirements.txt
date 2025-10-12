@@ -1,0 +1,13 @@
+streamlit
+transformers
+torch
+sentencepiece
+speechrecognition
+pyttsx3
+gTTS
+langdetect
+webbrowser
+indic-transliteration
+pyaudio
+playsound
+googletrans==4.0.0-rc1
