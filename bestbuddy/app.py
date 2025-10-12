@@ -73,7 +73,13 @@ def main():
             # Optional audio playback of assistant response
             audio_bytes = synth_to_audio_bytes(response_text, assistant)
             if audio_bytes:
-                st.audio(audio_bytes, format="audio/mp3")
+                # Try to detect if bytes are MP3 or WAV by magic header
+                fmt = "audio/mp3"
+                if audio_bytes[:3] == b"ID3" or audio_bytes[:2] == b"\xff\xfb":
+                    fmt = "audio/mp3"
+                elif audio_bytes[:4] == b"RIFF":
+                    fmt = "audio/wav"
+                st.audio(audio_bytes, format=fmt)
 
 
 if __name__ == "__main__":

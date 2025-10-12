@@ -6,7 +6,6 @@ speechrecognition
 pyttsx3
 gTTS
 langdetect
-webbrowser
 indic-transliteration
 pyaudio
 playsound
