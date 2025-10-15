@@ -1,0 +1,34 @@
+{
+  "history": [
+    {
+      "role": "user",
+      "text": "hi",
+      "ts": 1760460479
+    },
+    {
+      "role": "assistant",
+      "text": "i'm a sailor, i'm a sailor, i'm a sailor, i'm a sailor, i'm a sailor, i'm a sailor, i'm a sailor, i'm a sailor, i'm a sailor, i'm a sailor, i'm a sailor",
+      "ts": 1760460488
+    },
+    {
+      "role": "user",
+      "text": "hi",
+      "ts": 1760460587
+    },
+    {
+      "role": "assistant",
+      "text": "i'm a sailor, i'm a sailor, i'm a sailor, i'm a sailor, i'm a sailor, i'm a sailor, i'm a sailor, i'm a sailor, i'm a sailor, i'm a sailor, i'm a sailor",
+      "ts": 1760460597
+    },
+    {
+      "role": "user",
+      "text": "how are you",
+      "ts": 1760460627
+    },
+    {
+      "role": "assistant",
+      "text": "i'm fine. i'm fine. i'm fine. i'm fine. i'm fine. i'm fine. i'm fine. i'm fine. i'm fine. i'm fine. i'm fine. i'm fine. i'm fine. i'm fine. i'm fine. i'm fine. i'm fine. i'm fine. i'm fine. i'm fine.",
+      "ts": 1760460636
+    }
+  ]
+}
